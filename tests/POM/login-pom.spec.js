@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
-import { checkDashboardLink,performLogin, checkLoginLink } from "../helpers/commonHelper";
-const { LoginPage } = require("../pages/login-page");
+import { checkDashboardLink,performLogin, checkLoginLink } from "../../helpers/commonHelper";
+const { LoginPage } = require("../../pages/login-page");
 
 test("Orange HRM Login Test", async({page}) => {
     await performLogin(page, "Admin", "admin123", true);
