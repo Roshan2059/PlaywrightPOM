@@ -1,5 +1,5 @@
 const { expect } = require("@playwright/test");
-const { LoginPage } = require("../pages/LoginPage");
+const { LoginPage } = require("../pages/login-page");
 
 async function checkDashboardLink(page) {
     await page.waitForLoadState('domcontentloaded');
