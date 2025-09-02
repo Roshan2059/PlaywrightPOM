@@ -4,6 +4,7 @@ class LoginPage {
         this.usernameInput = page.locator('input[name="username"]');
         this.passwordInput = page.locator('input[name="password"]');
         this.loginButton = page.locator('button[type="submit"]');
+        this.forgotPasswordLink = page.locator('text=Forgot your password?');
     }
 
     async goto() {
@@ -16,6 +17,10 @@ class LoginPage {
         await this.passwordInput.fill(password);
         await this.loginButton.click();
         await this.page.waitForLoadState('domcontentloaded');
+    }
+
+    async clickForgotPassword() {
+        await this.forgotPasswordLink.click();
     }
 }
 
