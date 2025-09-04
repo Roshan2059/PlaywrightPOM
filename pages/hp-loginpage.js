@@ -22,7 +22,7 @@ class hpHomePage {
 
     async gotoHP(){
         await this.page.goto("https://app.hamropatro.com");
-        await this.page.waitForLoadState('domcontentloaded');
+        await this.page.waitForLoadState('networkidle');
     }
 
     // async gmailInput(){ await this.page.waitForTimeout(20000);

@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -13,6 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
+  globalSetup: require.resolve("./tests/auth.setup.js"),
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -35,9 +37,16 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+    // Setup project
+    // { name: 'setup', testMatch: /.*\.setup\.js/ },
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { 
+        ...devices['Desktop Chrome'], 
+        // storageState: path.join(__dirname, 'playwright/.auth/user.json'),
+        storageState: path.resolve('./playwright/.auth/user.json')
+      },
+        // dependencies: ['setup'],
     },
 
     // {

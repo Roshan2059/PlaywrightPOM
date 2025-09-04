@@ -1,0 +1,127 @@
+{
+  "cookies": [
+    {
+      "name": "__cflb",
+      "value": "02DiuEFaqyvi4yELsxqojAx54aBGQaZvFebEUB73ctGqa",
+      "domain": "app.hamropatro.com",
+      "path": "/",
+      "expires": 1756985430.187688,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1838323217.1756902631",
+      "domain": ".hamropatro.com",
+      "path": "/",
+      "expires": 1791462631.01638,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_BNXZ21HSN2",
+      "value": "GS2.1.s1756902630$o1$g0$t1756902631$j59$l0$h0",
+      "domain": ".hamropatro.com",
+      "path": "/",
+      "expires": 1791462631.126185,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:rDW5FQnbzDU8fftrfyDVFHMFgVVM1Q:NyG1ZMLWDuRnycNQ",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1791462641.964297,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8243311_33_33__33_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1759494643,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "525=dGOgvLyBzK2ulh2aMKmvmZx-AiHoa7SHitMSGVn2jfxaUeohYMEiVkgm_MM20_Vea5tElqBmSCfmB7mlfH3wxsuIgeegEwGUaRZO1rxV0mPakAjBalW3tHyz6fIcKK0MxUzSo1a_sxClFUsfUt3V2V99bZidpofRxuCDHk9ARl2iUplfNddOG2nwUtKg6a6S",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1772713844.342527,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.hamropatro.com",
+      "localStorage": [
+        {
+          "name": "devMode",
+          "value": "true"
+        },
+        {
+          "name": "GEOIP_LOCATION_LAST_FETCH_TIMESTAMP",
+          "value": "1756902631858"
+        },
+        {
+          "name": "page-feed:hamropatro::-OKeNV7zmwaMK3JHIXhh::feed:lastSuccessTime:np",
+          "value": "1756902633993"
+        },
+        {
+          "name": "page-feed:hamropatro::-O3DSOvNcSovu50ZPw27::feed:lastSuccessTime:np",
+          "value": "1756902634366"
+        },
+        {
+          "name": "page-feed:hamropatro::-O3DUBITMgmVZkcQb2Fr::feed:lastSuccessTime:np",
+          "value": "1756902638494"
+        },
+        {
+          "name": "feedLocale",
+          "value": "_np"
+        },
+        {
+          "name": "app-bundle-data",
+          "value": "{\"uiTheme\":\"system\",\"uiLanguage\":\"np\",\"location\":{\"latitude\":27.7017,\"longitude\":85.3206,\"country_code\":\"NP\",\"country_code2\":\"NP\",\"time_zone\":{\"name\":\"Asia/Kathmandu\"},\"city\":\"Kathmandu\"},\"userProfile\":null,\"platform\":\"BROWSER\"}"
+        },
+        {
+          "name": "GEOIP_LOCATION_RESPONSE",
+          "value": "{\"ip\":\"202.166.196.89\",\"continentCode\":\"AS\",\"continentName\":\"Asia\",\"countryCode\":\"NP\",\"countryName\":\"Nepal\",\"city\":\"Kathmandu\",\"latitude\":27.7017,\"longitude\":85.3206,\"timezone\":{\"name\":\"Asia/Kathmandu\"},\"cityInNepali\":\"काठमाण्डौ\",\"countryNameShortInNepali\":\"नेपाल\",\"countryShortName\":\"Nepal\",\"region\":\"Bagmati Province\",\"source\":\"db-ip\",\"postalCode\":\"\",\"regionCode\":\"\"}"
+        },
+        {
+          "name": "adminMode",
+          "value": "false"
+        },
+        {
+          "name": "locale",
+          "value": "np"
+        },
+        {
+          "name": "hp-analytics-device-id",
+          "value": "-OZEYeiWjzhksi86oAtv"
+        },
+        {
+          "name": "mode-watcher-mode",
+          "value": "system"
+        },
+        {
+          "name": "hamropatro-prod-x-installation-id",
+          "value": "31315294-5fe6-4f05-be70-f3298d8d1dd5"
+        },
+        {
+          "name": "lastNewsReadCount",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}
